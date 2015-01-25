@@ -10,8 +10,11 @@ Features with the name in format "mean." and "std." are the avg of the feature X
 The tidy data set contains the following features:
 
 "1" "Activity"
+
 "2" "Subject"
+
 "3" "tBodyAcc.mean...X"
+
 "4" "tBodyAcc.mean...Y"
 "5" "tBodyAcc.mean...Z"
 "6" "tGravityAcc.mean...X"
@@ -83,10 +86,18 @@ The tidy data set contains the following features:
 "72" "fBodyAccJerk.std...X"
 "73" "fBodyAccJerk.std...Y"
 "74" "fBodyAccJerk.std...Z"
+
 "75" "fBodyGyro.std...X"
+
 "76" "fBodyGyro.std...Y"
+
 "77" "fBodyGyro.std...Z"
+
 "78" "fBodyAccMag.std.."
+
 "79" "fBodyBodyAccJerkMag.std.."
+
 "80" "fBodyBodyGyroMag.std.."
+
 "81" "fBodyBodyGyroJerkMag.std.."
+
