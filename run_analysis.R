@@ -65,6 +65,6 @@ rm("data_train", "data_test")
 
 #Item 5
 DT <- data.table(group_by(Mergeddata, Subject, Activity))
-tinyData <- DT[, lapply(.SD, mean), by = c("Activity","Subject")]
+tidyData <- DT[, lapply(.SD, mean), by = c("Activity","Subject")]
 
-write.table(tinyData, row.names=FALSE,file = "tiny.txt")
+write.table(tidyData, row.names=FALSE,file = "tidy.txt")
